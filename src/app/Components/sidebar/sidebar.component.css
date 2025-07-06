@@ -1,0 +1,35 @@
+.sidebararea {
+    /* border: 2px solid red; */
+    /* min-height: calc(100vh - 60px); */
+    height: 100vh;
+    width: 120px;
+    background-color: black;
+    position: absolute;
+    /* min-height: calc(100vh - 99px); */
+}
+
+.listitems {
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    margin: 0px 0px 40px 0px
+        /* height: 80px; */
+
+}
+
+.listitems:hover {
+    font-weight: bold;
+    color: #f5f5f9;
+    cursor: pointer;
+}
+
+.unorderedlist {
+    /* margin-top: 120px; */
+    margin: 0px;
+    padding: 30px 0px;
+}
+
+.activeLink {
+    font-weight: bold;
+     color: red !important;
+}

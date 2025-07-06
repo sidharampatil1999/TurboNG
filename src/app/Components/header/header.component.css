@@ -1,0 +1,53 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topheader {
+    border: 2px solid black;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* position: fixed; */
+    width: 100vw;
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+}
+
+.turbonglogo {
+    /* margin: 10px; */
+    height: 40px;
+    cursor: pointer;
+}
+
+.Angularlogo {
+    height: 60px;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.rightsidelogo {
+    margin-left: auto;
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 614px) {
+    .topheader {
+        flex-direction: column;
+    }
+
+    .turbonglogo {
+        height: 50%;
+    }
+
+    .rightsidelogo {
+        height: 50%;
+        margin-left: 0;
+    }
+
+    .Angularlogo {
+        height: 45px;
+    }
+}

@@ -1,0 +1,63 @@
+<h1>TurboNG - DropDown Overview</h1>
+<hr>
+<p>
+    The TurboNG Dropdown library is a lightweight, flexible, and reusable Angular component designed to simplify the
+    implementation of dropdown menus across your application. Built with scalability and customization in mind, this
+    library allows developers to easily integrate feature-rich dropdowns with minimal setup
+</p>
+<br>
+<h1>TurboNG - DropDown Example</h1>
+<hr>
+<h3>Dropdown with default value -</h3>
+<div class="commandbox">
+    <div style="display: flex; justify-content: center; height: 40px;">
+        <turbo-ng-dropdown [ListItems]="ProvidedArray" DefaultValue='Cricket' class="dropdowncss"></turbo-ng-dropdown>
+    </div>
+</div>
+<h3>Dropdown without default value -</h3>
+<div class="commandbox">
+    <div style="display: flex; justify-content: center; height: 40px;">
+        <turbo-ng-dropdown [ListItems]="ProvidedArray" class="dropdowncss"></turbo-ng-dropdown>
+    </div>
+</div>
+<h3>1. Import 'TurboNGDropdownComponent' component into component.ts file.</h3>
+<div class="commandbox">
+    <div style="display: flex; justify-content: center;  ">
+        <img src="assets/imgs/DDCmd2.png" width="90%" alt="not found">
+
+    </div>
+    <!-- <span>{{ImportString}}</span> -->
+</div><br>
+<div class="commandbox">
+    <!-- <span>{{ImportArrayString}}</span> -->
+    <div style="display: flex; justify-content: center;  ">
+        <img src="assets/imgs/DDCmd1.png" width="90%" alt="not found">
+
+    </div>
+</div>
+<h3>2. Add below component tag into .html file</h3>
+<div class="listitem"> &#9679; [ListItems] accept the array.</div>
+<div class="listitem"> &#9679; 'ProvidedArray' is an array which declared in component.ts file.</div>
+<div class="listitem"> &#9679; '(GetSelectedValue)' emits the selected value from dropdown. </div>
+<div class="listitem"> &#9679; User can create a method like 'getDropdownValue($event)' to capture emitted value.
+</div>
+<div class="listitem"> &#9679; DefaultValue='India' user can give prepopulated default value.</div>
+<div class="listitem"> &#9679; class="dropdowncss" user can apply css to modify width & height.</div>
+
+<div class="commandbox" style="margin-bottom: 150px;">
+    <!-- <pre style="margin: 0px">{{HtmlTag }}</pre> -->
+       <div style="display: flex; justify-content: center;  ">
+        <img src="assets/imgs/DDCmd3.png" width="90%" alt="not found">
+
+    </div>
+</div>
+<!-- <br><br><br><br><br><br><br> -->
+
+<!-- <div style="height: 40vh;">
+
+</div> -->
+<!-- <turbo-ng-dropdown [listItems]="ProvidedArray" class="dropdowncss"></turbo-ng-dropdown> -->
+
+
+<!-- <br><br><br><br><br><br><br><br><br><br><br><br> -->
+<!-- <h3>&nbsp;&nbsp;Add below code template format into html file:</h3> -->

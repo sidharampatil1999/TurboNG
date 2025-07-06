@@ -1,0 +1,37 @@
+<h1>TurboNG - ListBox Overview</h1>
+<hr>
+<p>
+    A powerful and intuitive Angular component for dual-list selection. This library features a dual-sided listbox
+    interface, allowing users to seamlessly move items between the left and right panels. Ideal for scenarios like
+    permission management, or item transfers, it offers a clean design, smooth animations. With built-in support for
+    selection, and responsive layouts, this component
+    enhances productivity and user experience in any Angular application.
+</p>
+<br>
+<h1>TurboNG - ListBox Example</h1>
+<hr>
+<h3>ListBox with left side & right side data -</h3>
+<div class="commandbox">
+    <div style="display: flex; justify-content: center;">
+        <turbo-ng-listbox [leftArray]="LeftArray" [rightArray]="RightArray" style="height: 300px; width: 600px;"></turbo-ng-listbox>
+     </div>
+</div>
+<h3>1. Import 'TurboNGDropdownComponent' component into component.ts file.</h3>
+<div class="commandbox">
+    <span>{{ImportString}}</span>
+</div><br>
+<div class="commandbox">
+    <span>{{ImportArrayString}}</span>
+</div>
+<h3>2. Add below component tag into .html file</h3>
+<div class="listitem"> &#9679; [ListItems] accept the array.</div>
+<div class="listitem"> &#9679; 'ProvidedArray' is an array which declared in component.ts file.</div>
+<div class="listitem"> &#9679; '(GetSelectedValue)' emits the selected value from dropdown. </div>
+<div class="listitem"> &#9679; User can create a method like 'getDropdownValue($event)' to capture emitted value.
+</div>
+<div class="listitem"> &#9679; DefaultValue='India' user can give prepopulated default value.</div>
+<div class="listitem"> &#9679; class="dropdowncss" user can apply css to modify width & height.</div>
+
+<div class="commandbox" style="margin-bottom: 150px;">
+    <pre style="margin: 0px">{{HtmlTag }}</pre>
+ </div>

@@ -1,0 +1,9 @@
+.searchdropdown {
+    display: block;
+    width: 300px;
+    height: 35px;
+}
+.listitem{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}

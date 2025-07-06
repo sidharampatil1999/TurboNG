@@ -1,0 +1,52 @@
+<h1>TurboNG - ToolTip Overview</h1>
+<hr>
+<p>
+    Enhance your Angular applications with a sleek, customizable tooltip library that supports all directional
+    placements like <b>top</b>, <b>bottom</b>, <b>left</b> and <b>right</b>. Designed for flexibility and ease of
+    integration, this library allows
+    developers to effortlessly add informative tooltips, improving user experience and interface clarity.
+    This tooltip solution ensures consistent
+    styling, responsive behavior, and smooth animations across all screen sizes.
+</p>
+<br>
+<h1>TurboNG - ToolTip Example</h1>
+<hr>
+<h3>Hover cursor on below textboxes(Top, Bottom, Right & Left) -</h3>
+<div class="commandbox">
+    <div style="display: flex; align-items: center; justify-content: center; height: 90px; ">
+        <turbo-ng-tooltip text="The tooltip will be visible above the text box." position="top" class="tooltiptag">
+            <!-- <button>Hover top </button> -->
+            <input type="text" value="The tooltip will be visible above the text box.">
+        </turbo-ng-tooltip>
+        <turbo-ng-tooltip text="The tooltip will be visible below the text box." position="bottom" class="tooltiptag">
+            <!-- <button>Hover bottom </button> -->
+            <input type="text" value="The tooltip will be visible below the text box.">
+
+        </turbo-ng-tooltip>
+        <turbo-ng-tooltip class="tooltiptag" text="The tooltip will be visible at right hand side of the text box."
+            position="right">
+            <!-- <button>Hover Right </button> -->
+            <input type="text" value="The tooltip will be visible at right hand side of the text box.">
+        </turbo-ng-tooltip>
+        <turbo-ng-tooltip text="The tooltip will be visible at left hand side of the text box." position="left"
+            class="tooltiptag">
+            <!-- <button>Hover left </button> -->
+            <input type="text" value="The tooltip will be visible at left hand side of the text box.">
+
+        </turbo-ng-tooltip>
+    </div>
+</div>
+<h3>1. Import 'TurboNgTooltipComponent' component into component.ts file.</h3>
+<div class="commandbox">
+    <span>{{ImportString}}</span>
+</div><br>
+<div class="commandbox">
+    <span>{{ImportArrayString}}</span>
+</div>
+<h3>2. Add below component tag into .html file</h3>
+<div class="listitem"> &#9679; 'text=' accept the value which need to show in tooltip.</div>
+<div class="listitem"> &#9679; 'position=' accept four values i.e Top, Bottom, Right & Left.</div>
+<div class="listitem"> &#9679; Add your UI element in between turbo-ng-tooltip component tag. </div>
+<div class="commandbox" style="margin-bottom: 150px;">
+    <pre style="margin: 0px">{{HtmlTag }}</pre>
+</div>

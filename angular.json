@@ -11,6 +11,7 @@
       "prefix": "app",
       "architect": {
         "build": {
+ 
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/turbo-ng-website",
@@ -28,6 +29,10 @@
             ],
             "styles": [
               "src/styles.css"
+            ],
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
             ],
             "scripts": []
           },
@@ -86,6 +91,10 @@
             ],
             "styles": [
               "src/styles.css"
+            ],
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
             ],
             "scripts": []
           }
