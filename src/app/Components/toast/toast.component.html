@@ -1,0 +1,44 @@
+<h1>TurboNG - Toast Overview</h1>
+<hr>
+<p>
+    A lightweight and customizable toast notification library for Angular applications. This component allows developers
+    to easily trigger toast messages with a click of a button, displaying user-defined titles and messages. Perfect for
+    alerts, confirmations, or status updates. Enhance your app’s interactivity and feedback with this simple yet
+    powerful
+    notification solution. Right now it will display top right corner of the screen, soon i will add more
+    customization options like different position, duration, and styles.
+</p>
+<br>
+<h1>TurboNG - Toast Example</h1>
+<hr>
+<h3>Click on Save button, toast will display with Title = "Success" & Message = "Data saved Successfully." -</h3>
+<div class="commandbox">
+    <div style="display: flex; justify-content: center; align-items: center; height: 40px;">
+        <button (click)="ClickSave()"> Save </button>
+        <turbo-ng-toast></turbo-ng-toast>
+    </div>
+</div>
+<h3>1. Import 'TurboNgToastComponent' component into component.ts file.</h3>
+<div class="commandbox">
+    <span>{{ImportString}}</span>
+</div><br>
+<div class="commandbox">
+    <span>{{ImportArrayString}}</span>
+</div>
+<h3>2. Import 'TurboNgToastServiceService' service into component.ts file.</h3>
+<div class="commandbox">
+    <span>{{ImportString2}}</span>
+</div>
+<h3>3. Add service dependancy through constructor & use the provided service in to a method where event  binding &nbsp; &nbsp; is implemented with button.</h3>
+<div class="commandbox">
+    <div style="display: flex; justify-content: center;  ">
+        <img src="assets/imgs/ToastCode.png" width="90%" alt="not found">
+
+    </div>
+</div>
+<h3>4. Add below component tag into .html file</h3>
+<div class="listitem"> &#9679; Create a button & implement event binding.</div>
+<div class="listitem"> &#9679; Add {{ComponentTag}} into html file.</div>
+<div class="commandbox" style="margin-bottom: 150px;">
+    <pre style="margin: 0px">{{HtmlTag}}</pre>
+ </div>

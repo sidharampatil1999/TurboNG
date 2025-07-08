@@ -20,7 +20,8 @@ export class SidebarComponent implements OnInit{
     ToolTip:'ToolTip',
     ListBox:'List Box',
     Toast:'Toast',
-    GridTable:'Grid Table',
+    // GridTable:'Grid Table',
+    TextBox: "TextBox",
     RadioButton:"Radio Button",
   };
   compareFn = () => 0;

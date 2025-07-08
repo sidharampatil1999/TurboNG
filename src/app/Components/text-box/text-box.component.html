@@ -1,0 +1,38 @@
+<h1>TurboNG - TextBox Overview</h1>
+<hr>
+<p>
+    A simple yet essential Angular component for creating text input fields with built-in support for mandatory field
+    validation. This library helps developers quickly integrate customizable textboxes that enforce required input,
+    ensuring data completeness and form accuracy.
+</p>
+<br>
+<h1>TurboNG - TextBox Example</h1>
+<hr>
+<h3>TextBox with mandatory field (Where user types & erase it back, the textbox displays with red border & exclamation
+    mark.) -</h3>
+<div class="commandbox">
+    <div style="display: flex; justify-content: center; align-items: center;  height: 60px;">
+        <turbo-ng-textbox class="textbox" PlaceHolder="UserId" [MandatoryField]="true"></turbo-ng-textbox>
+    </div>
+</div>
+<h3>1. Import 'TurboNgTextboxComponent' component into component.ts file.</h3>
+<div class="commandbox">
+    <!-- <div style="display: flex; justify-content: center;  ">
+ 
+    </div> -->
+    <span>{{ImportString}}</span>
+</div><br>
+<div class="commandbox">
+    <!-- <div style="display: flex; justify-content: center;  ">
+ 
+    </div> -->
+    <span>{{ImportArrayString}}</span>
+</div><br>
+<h3>2. Add below component tag into .html file</h3>
+<div class="listitem"> &#9679; 'GetTextData' its an event emitter, which emit text which entered in textbox.</div>
+<div class="listitem"> &#9679; 'PlaceHolder' is optional parameter.</div>
+<div class="listitem"> &#9679; 'MandatoryField' is otional, by default value is false. </div>
+<div class="commandbox" style="margin-bottom: 150px;">
+    <!-- <pre style="margin: 0px">{{HtmlTag }}</pre> -->
+    <pre>{{HtmlTag}}</pre>
+</div>

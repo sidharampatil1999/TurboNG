@@ -1,8 +1,7 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { TurboNGDropdownComponent } from 'turbo-ng'
 
-
-@Component({
+ @Component({
   selector: 'app-dropdown',
   imports: [TurboNGDropdownComponent],
   templateUrl: './dropdown.component.html',
