@@ -3,7 +3,32 @@
     display: inline-block;
     height: 20px;
 }
-.listitem{
+
+.listitem {
     margin-bottom: 10px;
     margin-left: 20px;
+}
+
+.tooltipinternal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+}
+
+.tooltiptag{
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 1373px) {
+    .tooltipinternal{
+        flex-direction: column;
+        height: auto;
+    }
+    input {
+       margin: 20px;
+    }
+   .tooltiptag{
+    margin-bottom: 20px;
+}
 }

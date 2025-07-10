@@ -11,6 +11,6 @@ import { TurboNgTextboxComponent } from 'turbo-ng'
 export class TextBoxComponent {
   ImportString = "import {TurboNgTextboxComponent} from 'turbo-ng';"
   ImportArrayString = "imports: [TurboNgTextboxComponent],"
-  HtmlTag = '<turbo-ng-textbox\n      (GetTextData)="GetTextBoxData($event)"\n      PlaceHolder="UserId\n      [MandatoryField]="true"\n      class="textbox" >\n</turbo-ng-textbox>' 
+  HtmlTag = '<turbo-ng-textbox\n\n      (GetTextData)="GetTextBoxData($event)"\n      PlaceHolder="UserId\n      [MandatoryField]="true"\n      class="textbox" >\n\n</turbo-ng-textbox>' 
 
 }

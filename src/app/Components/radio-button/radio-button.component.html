@@ -13,14 +13,31 @@
 <h3>Disabled Radio Button -</h3>
 <div class="commandbox">
     <div style="display: flex; justify-content: center; align-items: center;  height: 40px;">
-        <turbo-ng-radio-buttoon   [label]="'Male'"   [value]="'Male'"   [name]="'group1'" id="radio" [disabled]="true">
+        <turbo-ng-radio-buttoon  label="Male" value="Male" name="group1"   [disabled]="true">
         </turbo-ng-radio-buttoon>
     </div>
 </div>
 <h3>Enabled Radio Button -</h3>
 <div class="commandbox">
     <div style="display: flex; justify-content: center; align-items: center;  height: 40px;">
-        <turbo-ng-radio-buttoon   [label]="'Female'"   [value]="'Male'"   [name]="'group1'" id="radio">
+        <turbo-ng-radio-buttoon (selected)="Getselectedvalu($event)" label="Female" value="Female" name="group1"  >
         </turbo-ng-radio-buttoon>
     </div>
+</div>
+<h3>1. Import 'TurboNgListboxComponent' component into component.ts file.</h3>
+<div class="commandbox">
+    <span>{{ImportString}}</span>
+</div><br>
+<div class="commandbox">
+    <span>{{ImportArrayString}}</span>
+</div>
+<h3>2. Add below component tag into .html file</h3>
+<div class="listitem"> &#9679; 'label' text applied to radio button.</div>
+<div class="listitem"> &#9679; 'value' which need to emit after selecting the radio button.</div>
+<div class="listitem"> &#9679; '(selected)' emits the selected value. </div>
+<div class="listitem"> &#9679; User can create a method like 'getSeletedValue($event)' to capture emitted value.
+</div>
+<div class="listitem"> &#9679; By default disabled is false.</div>
+<div class="commandbox" style="margin-bottom: 150px;">
+    <pre style="margin: 0px">{{HtmlTag }}</pre>
 </div>

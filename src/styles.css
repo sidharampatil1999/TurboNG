@@ -22,7 +22,7 @@ h1 {
 }
 
 .commandbox {
-    width: 100%;
+    /* width: 100%; */
     border: 1px solid #DFDFDF;
     background-color: #fff;
     padding: 20px;
@@ -32,4 +32,9 @@ h1 {
 
 p {
     font-size: larger;
+}
+
+pre{
+        white-space: pre-wrap;
+
 }

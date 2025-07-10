@@ -11,31 +11,42 @@
 <h3>Search Dropdown with default value -</h3>
 <div class="commandbox">
     <div style="display: flex; justify-content: center; height: 40px;">
-         <turbo-ng-search-dropdown  [ListItem]="ProvidedArray" DefaultValue="Football" class="searchdropdown"></turbo-ng-search-dropdown>
+        <turbo-ng-search-dropdown [ListItem]="ProvidedArray" DefaultValue="Football"
+            class="searchdropdown"></turbo-ng-search-dropdown>
 
     </div>
 </div>
 <h3>Search Dropdown without default value -</h3>
 <div class="commandbox">
     <div style="display: flex; justify-content: center; height: 40px;">
-         <turbo-ng-search-dropdown  [ListItem]="ProvidedArray" class="searchdropdown"></turbo-ng-search-dropdown>
+        <turbo-ng-search-dropdown [ListItem]="ProvidedArray" class="searchdropdown"></turbo-ng-search-dropdown>
     </div>
 </div>
 <h3>1. Import 'TurboNgSearchDropdownComponent' component into component.ts file.</h3>
 <div class="commandbox">
+    <!-- <div style="display: flex; justify-content: center;  ">
+        <img src="assets/imgs/SDCimg1.png" width="90%" alt="not found">
+    </div> -->
     <span>{{ImportString}}</span>
 </div><br>
 <div class="commandbox">
+    <!-- <div style="display: flex; justify-content: center;  ">
+        <img src="assets/imgs/SDCimg2.png" width="90%" alt="not found">
+    </div> -->
     <span>{{ImportArrayString}}</span>
 </div>
 <h3>2. Add below component tag into .html file</h3>
 <div class="listitem"> &#9679; [ListItems] accept the array.</div>
 <div class="listitem"> &#9679; 'ProvidedArray' is an array which declared in component.ts file.</div>
-<div class="listitem"> &#9679; '(GetSelectedValue)' emits the selected value from dropdown.  </div>
-<div class="listitem"> &#9679; User can create a method like 'getSearchDropdownValue($event)' to capture emitted value.</div>
+<div class="listitem"> &#9679; '(GetSelectedValue)' emits the selected value from dropdown. </div>
+<div class="listitem"> &#9679; User can create a method like 'getSearchDropdownValue($event)' to capture emitted value.
+</div>
 <div class="listitem"> &#9679; DefaultValue='Football' user can give prepopulated default value.</div>
 <div class="listitem"> &#9679; class="searchdropdown" user can apply css to modify width & height of dropdown.</div>
 <div class="commandbox" style="margin-bottom: 150px;">
     <pre style="margin: 0px">{{HtmlTag}}</pre>
+    <!-- <div style="display: flex; justify-content: center;  ">
+        <img src="assets/imgs/SDCimg3.png" width="90%" alt="not found">
+    </div> -->
     <!-- <span >{{HtmlTag }}</span> -->
 </div>
