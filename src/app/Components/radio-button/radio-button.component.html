@@ -13,15 +13,18 @@
 <h3>Disabled Radio Button -</h3>
 <div class="commandbox">
     <div style="display: flex; justify-content: center; align-items: center;  height: 40px;">
-        <turbo-ng-radio-buttoon  label="Male" value="Male" name="group1"   [disabled]="true">
+        <turbo-ng-radio-buttoon label="Male" value="Male" name="group1" [disabled]="true">
         </turbo-ng-radio-buttoon>
     </div>
 </div>
 <h3>Enabled Radio Button -</h3>
 <div class="commandbox">
-    <div style="display: flex; justify-content: center; align-items: center;  height: 40px;">
-        <turbo-ng-radio-buttoon (selected)="Getselectedvalu($event)" label="Female" value="Female" name="group1"  >
+    <div class="radiodivbox">
+        <turbo-ng-radio-buttoon class="radiobtn" label="Male" value="Male" name="group1">
         </turbo-ng-radio-buttoon>
+        <turbo-ng-radio-buttoon class="radiobtn" label="Female" value="Female" name="group1">
+        </turbo-ng-radio-buttoon>
+
     </div>
 </div>
 <h3>1. Import 'TurboNgListboxComponent' component into component.ts file.</h3>
