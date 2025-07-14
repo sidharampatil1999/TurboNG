@@ -33,3 +33,13 @@
     font-weight: bold;
      color: red !important;
 }
+
+@media only screen and (max-width: 614px) {
+    .sidebararea{
+        width: 100px;
+    }
+}
+     
+     
+
+    
