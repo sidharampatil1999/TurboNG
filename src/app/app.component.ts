@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./Components/header/header.component";
 import { SidebarComponent } from "./Components/sidebar/sidebar.component";
@@ -10,6 +10,6 @@ import { IntroductionComponent } from "./Components/introduction/introduction.co
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
-  title = 'TurboNgWebsite';
+export class AppComponent  {
+ title = 'TurboNgWebsite';
 }
