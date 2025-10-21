@@ -40,6 +40,7 @@
 
     .turbonglogo {
         height: 50%;
+        margin-top: 10px;
     }
 
     .rightsidelogo {
@@ -48,6 +49,7 @@
     }
 
     .Angularlogo {
-        height: 45px;
+        /* height: 45px; */
+        visibility: hidden;
     }
 }
